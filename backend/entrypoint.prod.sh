@@ -15,7 +15,6 @@ then
 
     echo "Collect static files"
     python manage.py collectstatic --no-input --clear
-
 fi
 
 exec "$@"
